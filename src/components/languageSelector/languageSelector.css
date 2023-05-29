@@ -1,0 +1,20 @@
+.flagContainer{
+    display: flex;
+    column-gap: 12px;
+}
+.flag{   
+     width: 2em !important;
+     height: 2em !important;
+    }    
+ .flag:hover {
+    width: 3em !important;     
+   }
+
+.selectedFlag{
+    width: 2em !important;
+    height: 2em !important;
+    border-radius: 50%;
+    border: 2px solid black;    
+    padding: 2px;
+    background-color: rgb(126, 235, 126);
+}
