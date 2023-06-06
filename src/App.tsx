@@ -1,11 +1,15 @@
-import { Traslator } from './components/translator/Translator';
+import { Traslator } from './components/traslator/Traslator';
 import './App.css';
 
-function App() {
+interface AppProps {
+    title: string;
+}
+function App(props: AppProps) {
     return (
         <>
             <div className="app">
-                <Traslator />;
+                <div className="app-title">{props.title}</div>
+                <Traslator />
             </div>
         </>
     );

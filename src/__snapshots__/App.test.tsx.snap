@@ -1,0 +1,108 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`App > renders App component 1`] = `
+<div>
+  <div
+    class="app"
+  >
+    <div
+      class="traslator-container"
+    >
+      <button
+        class="translator-button"
+        disabled=""
+      >
+        Traducir
+      </button>
+      <div
+        class="textarea-container"
+      >
+        <div
+          class="textarea-item"
+        >
+          <div
+            class="flagContainer"
+          >
+            <img
+              class="flag"
+              src="https://cdn.jsdelivr.net/gh/lipis/flag-icons/flags/4x3/gb.svg"
+              style="display: inline-block; width: 1em; height: 1em; vertical-align: middle;"
+              title="GB"
+            />
+            <img
+              class="selectedFlag"
+              src="https://cdn.jsdelivr.net/gh/lipis/flag-icons/flags/4x3/es.svg"
+              style="display: inline-block; width: 1em; height: 1em; vertical-align: middle;"
+              title="ES"
+            />
+            <img
+              class="flag"
+              src="https://cdn.jsdelivr.net/gh/lipis/flag-icons/flags/4x3/fr.svg"
+              style="display: inline-block; width: 1em; height: 1em; vertical-align: middle;"
+              title="FR"
+            />
+            <img
+              class="flag"
+              src="https://cdn.jsdelivr.net/gh/lipis/flag-icons/flags/4x3/de.svg"
+              style="display: inline-block; width: 1em; height: 1em; vertical-align: middle;"
+              title="DE"
+            />
+            <img
+              class="flag"
+              src="https://cdn.jsdelivr.net/gh/lipis/flag-icons/flags/4x3/it.svg"
+              style="display: inline-block; width: 1em; height: 1em; vertical-align: middle;"
+              title="IT"
+            />
+          </div>
+          <textarea
+            class="textarea"
+          />
+        </div>
+        <div
+          class="textarea-item"
+        >
+          <div
+            class="flagContainer"
+          >
+            <img
+              class="selectedFlag"
+              src="https://cdn.jsdelivr.net/gh/lipis/flag-icons/flags/4x3/gb.svg"
+              style="display: inline-block; width: 1em; height: 1em; vertical-align: middle;"
+              title="GB"
+            />
+            <img
+              class="flag"
+              src="https://cdn.jsdelivr.net/gh/lipis/flag-icons/flags/4x3/es.svg"
+              style="display: inline-block; width: 1em; height: 1em; vertical-align: middle;"
+              title="ES"
+            />
+            <img
+              class="flag"
+              src="https://cdn.jsdelivr.net/gh/lipis/flag-icons/flags/4x3/fr.svg"
+              style="display: inline-block; width: 1em; height: 1em; vertical-align: middle;"
+              title="FR"
+            />
+            <img
+              class="flag"
+              src="https://cdn.jsdelivr.net/gh/lipis/flag-icons/flags/4x3/de.svg"
+              style="display: inline-block; width: 1em; height: 1em; vertical-align: middle;"
+              title="DE"
+            />
+            <img
+              class="flag"
+              src="https://cdn.jsdelivr.net/gh/lipis/flag-icons/flags/4x3/it.svg"
+              style="display: inline-block; width: 1em; height: 1em; vertical-align: middle;"
+              title="IT"
+            />
+          </div>
+          <textarea
+            class="textarea"
+            disabled=""
+          />
+        </div>
+      </div>
+    </div>
+    ;
+  </div>
+</div>
+`;

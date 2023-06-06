@@ -1,8 +1,8 @@
 export const openAIConstants = {
-    API_KEY: '<<YOUR AZURE OPEN AI KEY 1 OR 2>>',
-    ENDPOINT: '<<YOUR AZURE OPEN AI ENDPOINT>>',
+    API_KEY: '644f25d3d6294a5cbabbfdf31fe563c7',
+    ENDPOINT: 'https://dcorregia.openai.azure.com/',
     MODEL: 'gpt-35-turbo', // You can use another model, but maybe you will have to change the SYSTEM_MESSAGE and EXAMPLES_MESSAGE
-    DEPLOYMENT_NAME: '<<YOUR OPEN AI IMPLEMENTATON NAME >>',
+    DEPLOYMENT_NAME: 'chatNormal', // You can use another deployment name, but maybe you will have to change the SYSTEM_MESSAGE and EXAMPLES_MESSAGE
     SYSTEM_MESSAGE: {
         role: 'assistant',
         content: `You are an AI that translates text.
